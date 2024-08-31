@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <h1>Quote Generator</h1>
+        <div class="controls">
+            <select id="category-select">
+                <option value="inspire">Inspire</option>
+                <option value="life">Life</option>
+                <option value="love">Love</option>
+                <option value="art">Art</option>
+            </select>
+            <button id="generate-quote">New Quote</button>
+            <button id="save-quote">Save Quote</button>
+            <input type="text" id="custom-quote-input" placeholder="Add your own quote">
+            <button id="add-custom-quote">Add Custom Quote</button>
+        </div>
+        <div id="quote-box" class="quote-box">
+            <p id="quote">Click "New Quote" to get a quote!</p>
+        </div>
+        <div id="favorites">
+            <h2>Favorites</h2>
+            <input type="text" id="search-input" placeholder="Search favorites...">
+            <ul id="favorites-list"></ul>
+        </div>
+    </div>
+    <script src="scrip.js"></script>
+</body>
+</html>
+
+
