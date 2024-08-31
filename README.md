@@ -1,0 +1,1 @@
+a qoute generator prototype
